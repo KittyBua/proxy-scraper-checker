@@ -10,7 +10,7 @@ source_timeout = 15
 # Don't be in a hurry to set high values.
 # Make sure you have enough RAM first, gradually increasing the default value.
 # If set to 0, the maximum value available for your OS will be used.
-max_connections = 512
+max_connections = 0
 
 # URL to which to send a request to check the proxy.
 # If it is not httpbin or a service that returns an IP address,
@@ -20,7 +20,7 @@ max_connections = 512
 # check_website = "https://httpbin.smp.io/ip"
 # Disable checking:
 # check_website = ""
-check_website = "https://checkip.amazonaws.com"
+check_website = "https://google.com"
 
 # Set to false to sort proxies alphabetically.
 sort_by_speed = true
@@ -28,7 +28,7 @@ sort_by_speed = true
 # Save the geolocation of the proxy exit-node.
 # Uses offline geolocation database.
 # Only works for json output.
-enable_geolocation = true
+enable_geolocation = false
 
 # Enable output of all errors. Significantly slows down proxy checking.
 debug = false
@@ -37,7 +37,7 @@ debug = false
 # Path to the folder where the proxies will be saved.
 # Leave blank to save the proxies to the current directory.
 # This option is ignored in Docker.
-path = "./sdcard"
+path = "./sdcard/out/"
 
 json = false
 txt = true
@@ -86,8 +86,6 @@ sources = [
     "https://raw.githubusercontent.com/tuanminpay/live-proxy/master/http.txt",
     "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/http.txt",
     "https://raw.githubusercontent.com/vakhov/fresh-proxy-list/master/https.txt",
-    "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/http.txt",
-    "https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https.txt",
     "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt",
     "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/https.txt",
     "https://raw.githubusercontent.com/zevtyardt/proxy-list/main/http.txt",
@@ -106,7 +104,6 @@ sources = [
     "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks4",
     "https://openproxy.space/list/socks4",
     "https://proxyspace.pro/socks4.txt",
-    "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks4.txt",
     "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/socks4_proxies.txt",
     "https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/socks4/global/socks4_checked.txt",
     "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks4.txt",
@@ -139,8 +136,6 @@ sources = [
     "https://api.proxyscrape.com/v2/?request=getproxies&protocol=socks5",
     "https://openproxy.space/list/socks5",
     "https://proxyspace.pro/socks5.txt",
-    "https://raw.githubusercontent.com/AGDDoS/AGProxy/master/proxies/socks5.txt",
-    "https://raw.githubusercontent.com/ALIILAPRO/Proxy/main/socks5.txt",
     "https://raw.githubusercontent.com/Anonym0usWork1221/Free-Proxies/main/proxy_files/socks5_proxies.txt",
     "https://raw.githubusercontent.com/elliottophellia/yakumo/master/results/socks5/global/socks5_checked.txt",
     "https://raw.githubusercontent.com/ErcinDedeoglu/proxies/main/proxies/socks5.txt",
