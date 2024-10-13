@@ -1,6 +1,6 @@
 # proxy-scraper-checker
 
-[![CI](https://github.com/monosans/proxy-scraper-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/monosans/proxy-scraper-checker/actions/workflows/ci.yml)
+[![CI](https://github.com/KittyBua/proxy-scraper-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/monosans/proxy-scraper-checker/actions/workflows/ci.yml)
 
 ![Screenshot](screenshot.png)
 
