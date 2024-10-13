@@ -37,9 +37,9 @@ debug = false
 # Path to the folder where the proxies will be saved.
 # Leave blank to save the proxies to the current directory.
 # This option is ignored in Docker.
-path = "./out"
+path = "./sdcard"
 
-json = true
+json = false
 txt = true
 
 # If you have sources with a protocol prefix, such as socks5://127.0.0.1:1050, you can add them to any of these sections.
