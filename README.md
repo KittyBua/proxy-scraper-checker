@@ -19,7 +19,9 @@ You can get proxies obtained using this project in [monosans/proxy-list](https:/
 
 ## Installation and usage
 
-### FIRST INSTALL pip install aiohttp 
+### FIRST INSTALL 
+
+pip install aiohttp 
 
 
 ### Standalone executable
