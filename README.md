@@ -24,6 +24,11 @@ You can get proxies obtained using this project in [monosans/proxy-list](https:/
 pip install aiohttp 
 
 
+## Create a Folder on SD (Android) Root Folder
+
+new
+
+
 ### Standalone executable
 
 This is the easiest way, but it is only available for x86-64 Windows, x86-64/arm64 macOS and x86-64 Linux. Just download the archive for your OS from [nightly.link](https://nightly.link/KittyBua/proxy-scraper-checker/workflows/ci/main?preview), unzip it, edit `config.toml` and run the `proxy_scraper_checker` executable.
