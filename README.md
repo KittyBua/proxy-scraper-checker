@@ -31,14 +31,14 @@ new
 
 ### Standalone executable
 
-This is the easiest way, but it is only available for x86-64 Windows, x86-64/arm64 macOS and x86-64 Linux. Just download the archive for your OS from [nightly.link](https://nightly.link/KittyBua/proxy-scraper-checker/workflows/ci/main?preview), unzip it, edit `config.toml` and run the `proxy_scraper_checker` executable.
+This is the easiest way, but it is only available for x86-64 Windows, x86-64/arm64 macOS and x86-64 Linux. Just download the archive for your OS from [nightly.link](https://nightly.link/KittyBua/proxy-scraper-checker/workflows/ci/master?preview), unzip it, edit `config.toml` and run the `proxy_scraper_checker` executable.
 
 If Windows antivirus detects the executable file as a virus, please read [this](https://github.com/Nuitka/Nuitka/issues/2495#issuecomment-1762836583).
 
 ### Docker
 
 - [Install `Docker Compose`](https://docs.docker.com/compose/install/).
-- Download and unpack [the archive with the program](https://github.com/KittyBua/proxy-scraper-checker/archive/refs/heads/main.zip).
+- Download and unpack [the archive with the program](https://github.com/KittyBua/proxy-scraper-checker/archive/refs/heads/master.zip).
 - Edit `config.toml` to your preference.
 - Run the following commands:
   ```bash
@@ -51,7 +51,7 @@ If Windows antivirus detects the executable file as a virus, please read [this](
 #### Desktop
 
 - Install [Python](https://python.org/downloads). The minimum version required is 3.8.
-- Download and unpack [the archive with the program](https://github.com/KittyBua/proxy-scraper-checker/archive/refs/heads/main.zip).
+- Download and unpack [the archive with the program](https://github.com/KittyBua/proxy-scraper-checker/archive/refs/heads/master.zip).
 - Edit `config.toml` to your preference.
 - Run the script that installs dependencies and starts `proxy-scraper-checker`:
   - On Windows run `start.cmd`
@@ -64,7 +64,7 @@ To use `proxy-scraper-checker` in Termux, knowledge of the Unix command-line int
 - Download Termux from [F-Droid](https://f-droid.org/en/packages/com.termux/). [Don't download it from Google Play](https://github.com/termux/termux-app#google-play-store-experimental-branch).
 - Run the following command (it will automatically update Termux packages, install Python, and download and install `proxy-scraper-checker`):
   ```bash
-  bash <(curl -fsSL 'https://raw.githubusercontent.com/KittyBua/proxy-scraper-checker/main/install-termux.sh')
+  bash <(curl -fsSL 'https://raw.githubusercontent.com/KittyBua/proxy-scraper-checker/master/install-termux.sh')
   ```
 - Edit `~/proxy-scraper-checker/config.toml` to your preference using a text editor (vim/nano).
 - To run `proxy-scraper-checker` use the following command:
