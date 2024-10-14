@@ -1,6 +1,6 @@
 # proxy-scraper-checker
 
-[![CI](https://github.com/KittyBua/proxy-scraper-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/monosans/proxy-scraper-checker/actions/workflows/ci.yml)
+[![CI](https://github.com/KittyBua/proxy-scraper-checker/actions/workflows/ci.yml/badge.svg)](https://github.com/KittyBua/proxy-scraper-checker/actions/workflows/ci.yml)
 
 ![Screenshot](screenshot.png)
 
@@ -18,6 +18,9 @@ HTTP, SOCKS4, SOCKS5 proxies scraper and checker.
 You can get proxies obtained using this project in [monosans/proxy-list](https://github.com/monosans/proxy-list).
 
 ## Installation and usage
+
+### FIRST INSTALL pip install aiohttp 
+
 
 ### Standalone executable
 
